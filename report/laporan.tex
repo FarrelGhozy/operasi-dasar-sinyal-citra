@@ -296,11 +296,16 @@ Eksperimen ini menunjukkan bahwa operasi sederhana seperti penjumlahan, penggese
 \subsection{Refleksi Pribadi}
 
 \begin{enumerate}
-\item \textbf{Operasi termudah:} Amplifikasi, karena hanya perkalian skalar yang intuitif.
-\item \textbf{Operasi tersulit:} Penggeseran dengan \textit{zero-padding}, karena perlu menangani batas sinyal dengan benar.
-\item \textbf{Perbedaan 1D vs 2D:} Citra memiliki dua dimensi spasial dan tiga \textit{channel} warna, sehingga operasi dilakukan pada matriks 3D.
-\item \textbf{Insight baru:} Fungsi sesederhana $x^2$ saja sudah cukup untuk mematahkan sifat linier karena menghasilkan suku silang.
-\item \textbf{Bagian paling penting:} Konsep superposisi dan linieritas merupakan dasar dari filtering, kompresi, dan analisis spektrum dalam DSP.
+\item \textbf{Operasi mana yang paling mudah dipahami? Mengapa?} \\
+Amplifikasi, karena hanya perkalian skalar yang intuitif — memperbesar/memperkecil nilai sinyal secara proporsional.
+\item \textbf{Operasi mana yang paling sulit diimplementasikan? Mengapa?} \\
+Penggeseran dengan \textit{zero-padding}, karena perlu menangani batas sinyal dengan benar agar tidak terjadi \textit{wraparound} yang salah.
+\item \textbf{Apa perbedaan utama antara operasi pada sinyal 1D dan citra 2D?} \\
+Citra memiliki dua dimensi spasial dan tiga \textit{channel} warna (RGB), sehingga operasi dilakukan pada matriks 3D, bukan vektor 1D.
+\item \textbf{Apa hal baru yang Anda pahami tentang sistem linier?} \\
+Fungsi sesederhana $x^2$ saja sudah cukup untuk mematahkan sifat linier karena menghasilkan suku silang $2x_1x_2$ yang melanggar additivitas.
+\item \textbf{ Jika konsep ini digunakan dalam aplikasi nyata, bagian mana yang menurut Anda paling penting?} \\
+Konsep superposisi dan linieritas merupakan dasar dari filtering, kompresi, dan analisis spektrum dalam DSP.
 \end{enumerate}
 
 \end{document}
