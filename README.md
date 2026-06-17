@@ -2,6 +2,8 @@
 
 **Mata Kuliah:** Pengolahan Sinyal Digital
 
+**Nama:** Farrel Ghozy Affifudin — **NIM:** 452024611053 — **Kelas:** TI 5 A2
+
 **Topik:** Operasi penjumlahan, penggeseran, amplifikasi, superposisi, sistem linier, dan aplikasi nyata pada sinyal 1D dan citra 2D
 
 ## Deskripsi Project
