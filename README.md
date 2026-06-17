@@ -82,3 +82,15 @@ operasi-dasar-sinyal-citra/
 ## Kesimpulan
 
 Operasi sederhana seperti penjumlahan, penggeseran, dan amplifikasi adalah blok bangunan fundamental dari konsep yang lebih besar dalam Pengolahan Sinyal Digital — superposisi, sistem linier, filtering, dan augmentasi citra. Sistem linier memungkinkan penggunaan prinsip superposisi untuk analisis yang lebih kompleks.
+
+## Refleksi Pribadi
+
+1. **Operasi mana yang paling mudah dipahami? Mengapa?** — Amplifikasi, karena hanya perkalian skalar yang intuitif — memperbesar/memperkecil nilai sinyal secara proporsional.
+
+2. **Operasi mana yang paling sulit diimplementasikan? Mengapa?** — Penggeseran dengan zero-padding, karena perlu menangani batas sinyal dengan benar agar tidak terjadi wraparound yang salah.
+
+3. **Apa perbedaan utama antara operasi pada sinyal 1D dan citra 2D?** — Citra memiliki dua dimensi spasial dan tiga channel warna (RGB), sehingga operasi dilakukan pada matriks 3D, bukan vektor 1D.
+
+4. **Apa hal baru yang Anda pahami tentang sistem linier?** — Fungsi sesederhana x² saja sudah cukup untuk mematahkan sifat linier karena menghasilkan suku silang 2x₁x₂ yang melanggar additivitas.
+
+5. **Jika konsep ini digunakan dalam aplikasi nyata, bagian mana yang menurut Anda paling penting?** — Konsep superposisi dan linieritas merupakan dasar dari filtering, kompresi, dan analisis spektrum dalam DSP.
