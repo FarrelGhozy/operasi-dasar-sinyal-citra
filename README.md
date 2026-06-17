@@ -38,6 +38,11 @@ Atau via VS Code:
 code notebook/operasi_sinyal_citra.ipynb
 ```
 
+### 3. Compile ulang laporan (jika diperlukan)
+```bash
+cd report && pdflatex laporan.tex
+```
+
 ## Struktur Folder Project
 
 ```
@@ -50,7 +55,8 @@ operasi-dasar-sinyal-citra/
 │   ├── citra2.jpg                   # Citra checkerboard
 │   ├── various_plot_outputs.png     # Hasil plot dari notebook
 ├── report/
-│   └── (laporan PDF - opsional)
+│   ├── laporan.pdf                  # Laporan PDF
+│   └── laporan.tex                  # Source LaTeX laporan
 ├── README.md
 └── requirements.txt
 ```
