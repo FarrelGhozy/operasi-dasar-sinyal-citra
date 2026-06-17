@@ -4,6 +4,8 @@
 
 **Nama:** Farrel Ghozy Affifudin — **NIM:** 452024611053 — **Kelas:** TI 5 A2
 
+**Link Repository:** [github.com/FarrelGhozy/operasi-dasar-sinyal-citra](https://github.com/FarrelGhozy/operasi-dasar-sinyal-citra.git)
+
 **Topik:** Operasi penjumlahan, penggeseran, amplifikasi, superposisi, sistem linier, dan aplikasi nyata pada sinyal 1D dan citra 2D
 
 ## Deskripsi Project
